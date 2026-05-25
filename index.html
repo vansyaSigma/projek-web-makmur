@@ -19,12 +19,16 @@
       --muted: #8a6a4a;
       --divider: #e8d9b8;
       --badge-bg: #fff3d6;
+      --blue: rgb(0, 115, 255);
+      --blue-mid: rgb(0, 166, 255);
+      --blue-body: rgb(0, 204, 255);
+      
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background-color: var(--cream);
+      background-color: var(--blue-body);
       font-family: 'Nunito', sans-serif;
       color: var(--text);
       min-height: 100vh;
@@ -32,8 +36,8 @@
 
     /* ── HEADER ── */
     header {
-      background: var(--brown);
-      text-align: center;
+      background: var(--blue);
+      text-align: center; 
       padding: 36px 20px 28px;
       position: relative;
       overflow: hidden;
@@ -45,8 +49,8 @@
       background: repeating-linear-gradient(
         45deg,
         transparent,
-        transparent 18px,
-        rgba(255,255,255,.03) 18px,
+        transparent 17px,
+        rgba(255,255,255,.03) 9px,
         rgba(255,255,255,.03) 36px
       );
     }
@@ -81,7 +85,7 @@
       display: flex;
       justify-content: center;
       gap: 0;
-      background: var(--brown-mid);
+      background: var(--blue-mid);
       position: sticky;
       top: 0;
       z-index: 100;
@@ -106,7 +110,7 @@
 
     /* ── PROMO BANNER ── */
     .promo-banner {
-      background: linear-gradient(135deg, var(--red) 0%, #8b1a12 100%);
+      background: linear-gradient(135deg, var(--blue) 0%, #ff00c3 100%);
       color: #fff;
       padding: 14px 20px;
       text-align: center;
@@ -120,7 +124,7 @@
     .promo-badge {
       display: inline-block;
       background: var(--gold-light);
-      color: var(--brown);
+      color: linear-gradient(135deg, var(--blue) 0%, #8b1a12 100%);
       font-weight: 700;
       font-size: .8rem;
       padding: 2px 10px;
@@ -233,7 +237,7 @@
     .promo-card .pc-price {
       display: inline-block;
       margin-top: 8px;
-      background: var(--red);
+      background: linear-gradient(135deg, var(--blue) 0%, #8b1a12 100%);
       color: #fff;
       font-weight: 700;
       font-size: .8rem;
@@ -249,7 +253,7 @@
 
     /* ── FOOTER ── */
     footer {
-      background: var(--brown);
+      background: var(--blue);
       color: rgba(255,255,255,.75);
       text-align: center;
       padding: 28px 20px;
