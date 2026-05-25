@@ -57,7 +57,7 @@
     header h1 {
       font-family: 'Playfair Display', serif;
       font-size: clamp(2.2rem, 7vw, 3.6rem);
-      color: var(--gold-light);
+      color: var(--cream);
       letter-spacing: 3px;
       text-shadow: 0 2px 8px rgba(0,0,0,.4);
       position: relative;
@@ -103,14 +103,14 @@
       border-bottom: 3px solid transparent;
     }
     nav a:hover, nav a.active {
-      color: var(--gold-light);
+      color: var(--cream);
       background: rgba(0,0,0,.18);
       border-bottom-color: var(--gold-light);
     }
 
     /* ── PROMO BANNER ── */
     .promo-banner {
-      background: linear-gradient(135deg, var(--blue) 0%, #ff00c3 100%);
+      background: linear-gradient(135deg, var(--blue) 0%, #b4007e 100%);
       color: #fff;
       padding: 14px 20px;
       text-align: center;
@@ -123,7 +123,7 @@
     }
     .promo-badge {
       display: inline-block;
-      background: var(--gold-light);
+      background: var(--green);
       color: linear-gradient(135deg, var(--blue) 0%, #8b1a12 100%);
       font-weight: 700;
       font-size: .8rem;
@@ -304,7 +304,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#paket" class="active">Paket Hemat</a>
+  <a href="#paket">Paket Hemat</a>
   <a href="#makanan">Makanan</a>
   <a href="#minuman">Minuman</a>
 </nav>
@@ -508,13 +508,13 @@
 
 <!-- FOOTER -->
 <footer>
-  <div class="ft-name">RM MAKMUR</div>
+  <div style="color: var(--cream);" class="ft-name">RM MAKMUR</div>
   <div class="ft-line">📍 Jl. Ronggo Waluyo No. 17, Depan Kampus UNSIKA</div>
-  <div class="ft-line">📞 0895373778346</div>
+  <a style="color: rgba(255,255,255,.88);;" href="http://wa.me/0895373778346"><div class="ft-line">📞 0895373778346</div></a>
   <div class="ft-platforms">
-    <span class="plat-badge">🛵 GoFood</span>
-    <span class="plat-badge">🛵 ShopeeFood</span>
-    <span class="plat-badge">🛵 GrabFood</span>
+    <a style="padding: 5px; text-decoration: none; padding-top: 10px;" href="https://gofood.link/a/SoTMhzo"><span class="plat-badge" >🛵 GoFood</span></a>
+    <a style="padding: 5px; text-decoration: none; padding-top: 10px;" href="https://r.grab.com/g/6-20260525_203232_51c1eff66b8f42b5a35702c602529a7e_MEXMPS-6-CZKBEK6FETJUN6//"><span class="plat-badge">🛵 ShopeeFood</span></a>
+    <a style="padding: 5px; text-decoration: none; padding-top: 10px;" href="https://shopee.co.id/universal-link/now-food/shop/1378719?deep_and_deferred=1&shareChannel=copy_link"><span class="plat-badge">🛵 GrabFood</span></a>
   </div>
 </footer>
 
